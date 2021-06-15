@@ -1,6 +1,8 @@
 ## QuizApp
 
-App which enables you creating your own Quiz and run them. You can be powerful adming or simple user :).
+![image](https://user-images.githubusercontent.com/46634713/122102595-e239b580-ce15-11eb-89b0-a4a3410c247a.png)
+
+App for creating quizzes and running them. You can be powerful adming or simple user :).
 
 #### Used technology:
 - JavaFX,
