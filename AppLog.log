@@ -1,0 +1,280 @@
+2021-06-14 08:19:20 [main] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:19:20 [main] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:19:20 [main] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:19:20 [main] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:19:20 [main] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:19:20 [main] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:19:20 [main] INFO  org.quizapp.App - Tables created.
+2021-06-14 08:19:20 [main] INFO  org.quizapp.App - QuizApp starts.
+2021-06-14 08:19:24 [JavaFX Application Thread] INFO  org.quizapp.App - Going to adminLoginPage.
+2021-06-14 08:19:33 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:19:33 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:19:33 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:19:33 [JavaFX Application Thread] INFO  org.quizapp.App - Provided admin credentials are valid: root toor
+2021-06-14 08:19:33 [JavaFX Application Thread] INFO  org.quizapp.App - Going to AdminMainPage.
+2021-06-14 08:19:35 [JavaFX Application Thread] INFO  org.quizapp.App - Going to adminQuestionsPage.
+2021-06-14 08:19:39 [JavaFX Application Thread] INFO  org.quizapp.App - Load button pressed
+2021-06-14 08:19:39 [JavaFX Application Thread] INFO  org.quizapp.App - Loading questions from database...
+2021-06-14 08:19:39 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:19:39 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:19:39 [JavaFX Application Thread] INFO  org.quizapp.App - 20 questions loaded from database.
+2021-06-14 08:19:39 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:20:10 [JavaFX Application Thread] INFO  org.quizapp.App - Going to addQuestionPage.
+2021-06-14 08:20:26 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:20:26 [JavaFX Application Thread] INFO  org.quizapp.App - Adding question.
+2021-06-14 08:20:26 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:20:26 [JavaFX Application Thread] INFO  org.quizapp.App - Checking if question was already added: 2+2=
+2021-06-14 08:20:26 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:20:26 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:26 [JavaFX Application Thread] INFO  org.quizapp.App - Question has been added.
+2021-06-14 08:20:26 [JavaFX Application Thread] INFO  org.quizapp.App - Question added!
+2021-06-14 08:20:26 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:20:29 [JavaFX Application Thread] INFO  org.quizapp.App - Closing addQuestion pop up window.
+2021-06-14 08:20:29 [JavaFX Application Thread] INFO  org.quizapp.App - Load button pressed
+2021-06-14 08:20:29 [JavaFX Application Thread] INFO  org.quizapp.App - Loading questions from database...
+2021-06-14 08:20:29 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:20:29 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:20:29 [JavaFX Application Thread] INFO  org.quizapp.App - 21 questions loaded from database.
+2021-06-14 08:20:29 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:20:33 [JavaFX Application Thread] INFO  org.quizapp.App - Going to deleteQuestions.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Checking if values are numeric.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - ids to delete = 21
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Table has been deleted: questions
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Questions deleted.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Table has been created: questions
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - New questions table created.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Questions reinserted to the database
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Closing deleteQuestions pop up window.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Load button pressed
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Loading questions from database...
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - 20 questions loaded from database.
+2021-06-14 08:20:37 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:20:44 [JavaFX Application Thread] INFO  org.quizapp.App - Going back to AdminMainPage.
+2021-06-14 08:20:48 [JavaFX Application Thread] INFO  org.quizapp.App - Logging out from AdminMainPage.
+2021-06-14 08:20:49 [JavaFX Application Thread] INFO  org.quizapp.App - Going back to mainPage.
+2021-06-14 08:20:52 [JavaFX Application Thread] INFO  org.quizapp.App - Going to userLoginPage.
+2021-06-14 08:20:55 [JavaFX Application Thread] INFO  org.quizapp.App - Going to userRegisterPage.
+2021-06-14 08:21:14 [JavaFX Application Thread] INFO  org.quizapp.App - Checking registration fields (patternChecker).
+2021-06-14 08:21:14 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:21:14 [JavaFX Application Thread] INFO  org.quizapp.App - Checking if user already exists: janek12345
+2021-06-14 08:21:14 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:21:14 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:21:14 [JavaFX Application Thread] INFO  org.quizapp.App - New user has been added: janek12345 Kowalski12
+2021-06-14 08:21:14 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:21:35 [JavaFX Application Thread] INFO  org.quizapp.App - Going back from userRegisterPage.
+2021-06-14 08:21:45 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:21:45 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:21:45 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:21:45 [JavaFX Application Thread] INFO  org.quizapp.App - Provided user credentials are valid: janek12345 Kowalski12
+2021-06-14 08:21:45 [JavaFX Application Thread] INFO  org.quizapp.App - Going to userMainPage.
+2021-06-14 08:22:07 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:22:07 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:22:07 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:22:07 [JavaFX Application Thread] INFO  org.quizapp.App - Quiz amount: 20
+2021-06-14 08:22:07 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:22:07 [JavaFX Application Thread] INFO  org.quizapp.App - User didn't complete the last quiz.
+2021-06-14 08:22:12 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:22:12 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:22:12 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:22:15 [JavaFX Application Thread] INFO  org.quizapp.App - Starting quiz. Going to quizPage.
+2021-06-14 08:22:15 [JavaFX Application Thread] INFO  org.quizapp.App - Quiz initialization (loading question)
+2021-06-14 08:22:15 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:22:15 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:22:15 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:22:15 [JavaFX Application Thread] INFO  org.quizapp.App - Questions loaded from database.
+2021-06-14 08:22:15 [JavaFX Application Thread] INFO  org.quizapp.App - Question number1 loaded to the screen.
+2021-06-14 08:22:24 [JavaFX Application Thread] INFO  org.quizapp.App - Answer A selected
+2021-06-14 08:22:35 [JavaFX Application Thread] INFO  org.quizapp.App - Question number2 loaded to the screen.
+2021-06-14 08:22:37 [JavaFX Application Thread] INFO  org.quizapp.App - Answer D selected
+2021-06-14 08:22:38 [JavaFX Application Thread] INFO  org.quizapp.App - Question number3 loaded to the screen.
+2021-06-14 08:22:40 [JavaFX Application Thread] INFO  org.quizapp.App - Answer D selected
+2021-06-14 08:22:41 [JavaFX Application Thread] INFO  org.quizapp.App - Question number4 loaded to the screen.
+2021-06-14 08:22:44 [JavaFX Application Thread] INFO  org.quizapp.App - Answer C selected
+2021-06-14 08:22:45 [JavaFX Application Thread] INFO  org.quizapp.App - Question number5 loaded to the screen.
+2021-06-14 08:22:46 [JavaFX Application Thread] INFO  org.quizapp.App - Answer D selected
+2021-06-14 08:22:47 [JavaFX Application Thread] INFO  org.quizapp.App - Question number6 loaded to the screen.
+2021-06-14 08:22:49 [JavaFX Application Thread] INFO  org.quizapp.App - Answer B selected
+2021-06-14 08:22:49 [JavaFX Application Thread] INFO  org.quizapp.App - Question number7 loaded to the screen.
+2021-06-14 08:22:51 [JavaFX Application Thread] INFO  org.quizapp.App - Answer A selected
+2021-06-14 08:22:52 [JavaFX Application Thread] INFO  org.quizapp.App - Question number8 loaded to the screen.
+2021-06-14 08:22:54 [JavaFX Application Thread] INFO  org.quizapp.App - Answer A selected
+2021-06-14 08:22:55 [JavaFX Application Thread] INFO  org.quizapp.App - Question number9 loaded to the screen.
+2021-06-14 08:22:57 [JavaFX Application Thread] INFO  org.quizapp.App - Answer B selected
+2021-06-14 08:22:58 [JavaFX Application Thread] INFO  org.quizapp.App - Question number10 loaded to the screen.
+2021-06-14 08:23:00 [JavaFX Application Thread] INFO  org.quizapp.App - Answer C selected
+2021-06-14 08:23:01 [JavaFX Application Thread] INFO  org.quizapp.App - Question number11 loaded to the screen.
+2021-06-14 08:23:02 [JavaFX Application Thread] INFO  org.quizapp.App - Answer A selected
+2021-06-14 08:23:03 [JavaFX Application Thread] INFO  org.quizapp.App - Question number12 loaded to the screen.
+2021-06-14 08:23:05 [JavaFX Application Thread] INFO  org.quizapp.App - Answer B selected
+2021-06-14 08:23:05 [JavaFX Application Thread] INFO  org.quizapp.App - Question number13 loaded to the screen.
+2021-06-14 08:23:07 [JavaFX Application Thread] INFO  org.quizapp.App - Answer A selected
+2021-06-14 08:23:07 [JavaFX Application Thread] INFO  org.quizapp.App - Question number14 loaded to the screen.
+2021-06-14 08:23:09 [JavaFX Application Thread] INFO  org.quizapp.App - Answer B selected
+2021-06-14 08:23:10 [JavaFX Application Thread] INFO  org.quizapp.App - Question number15 loaded to the screen.
+2021-06-14 08:23:13 [JavaFX Application Thread] INFO  org.quizapp.App - Answer A selected
+2021-06-14 08:23:14 [JavaFX Application Thread] INFO  org.quizapp.App - Question number16 loaded to the screen.
+2021-06-14 08:23:17 [JavaFX Application Thread] INFO  org.quizapp.App - Answer C selected
+2021-06-14 08:23:18 [JavaFX Application Thread] INFO  org.quizapp.App - Question number17 loaded to the screen.
+2021-06-14 08:23:19 [JavaFX Application Thread] INFO  org.quizapp.App - Answer C selected
+2021-06-14 08:23:21 [JavaFX Application Thread] INFO  org.quizapp.App - Question number18 loaded to the screen.
+2021-06-14 08:23:23 [JavaFX Application Thread] INFO  org.quizapp.App - Answer C selected
+2021-06-14 08:23:24 [JavaFX Application Thread] INFO  org.quizapp.App - Question number19 loaded to the screen.
+2021-06-14 08:23:26 [JavaFX Application Thread] INFO  org.quizapp.App - Answer B selected
+2021-06-14 08:23:28 [JavaFX Application Thread] INFO  org.quizapp.App - Question number20 loaded to the screen.
+2021-06-14 08:23:30 [JavaFX Application Thread] INFO  org.quizapp.App - Answer B selected
+2021-06-14 08:23:31 [JavaFX Application Thread] INFO  org.quizapp.App - Going to summaryPage
+2021-06-14 08:23:31 [JavaFX Application Thread] INFO  org.quizapp.App - Correct answers: 20.0 Question amount: 20.0
+2021-06-14 08:23:31 [JavaFX Application Thread] INFO  org.quizapp.App - Final result: 100.0%
+2021-06-14 08:23:31 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:23:31 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:23:31 [JavaFX Application Thread] INFO  org.quizapp.App - User row updated
+2021-06-14 08:23:31 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:23:45 [JavaFX Application Thread] INFO  org.quizapp.App - QUIZ FINISHED.
+2021-06-14 08:23:45 [JavaFX Application Thread] INFO  org.quizapp.App - Going back to userMainPage
+2021-06-14 08:23:49 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:23:49 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:23:49 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:23:49 [JavaFX Application Thread] INFO  org.quizapp.App - Quiz amount: 20
+2021-06-14 08:23:49 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:23:49 [JavaFX Application Thread] INFO  org.quizapp.App - User did complete the last quiz.
+2021-06-14 08:23:49 [JavaFX Application Thread] INFO  org.quizapp.App - Opening resultPage pop up window.
+2021-06-14 08:23:49 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:23:49 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:23:49 [JavaFX Application Thread] INFO  org.quizapp.App - User last result loaded from database.
+2021-06-14 08:23:49 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:23:49 [JavaFX Application Thread] INFO  org.quizapp.App - Correct answers: 20 Question amount: 20
+2021-06-14 08:23:49 [JavaFX Application Thread] INFO  org.quizapp.App - Final result: 100.0%
+2021-06-14 08:24:07 [JavaFX Application Thread] INFO  org.quizapp.App - Closing result pop up window.
+2021-06-14 08:24:09 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:24:09 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:24:09 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:24:10 [JavaFX Application Thread] INFO  org.quizapp.App - Starting quiz. Going to quizPage.
+2021-06-14 08:24:10 [JavaFX Application Thread] INFO  org.quizapp.App - Quiz initialization (loading question)
+2021-06-14 08:24:10 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:24:10 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:24:10 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:24:10 [JavaFX Application Thread] INFO  org.quizapp.App - Questions loaded from database.
+2021-06-14 08:24:10 [JavaFX Application Thread] INFO  org.quizapp.App - Question number1 loaded to the screen.
+2021-06-14 08:24:12 [JavaFX Application Thread] INFO  org.quizapp.App - Answer A selected
+2021-06-14 08:24:13 [JavaFX Application Thread] INFO  org.quizapp.App - Answer C selected
+2021-06-14 08:24:14 [JavaFX Application Thread] INFO  org.quizapp.App - Answer D selected
+2021-06-14 08:24:15 [JavaFX Application Thread] INFO  org.quizapp.App - Question number2 loaded to the screen.
+2021-06-14 08:24:19 [JavaFX Application Thread] INFO  org.quizapp.App - User quits quiz! Results are reseted.
+2021-06-14 08:24:19 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:24:19 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:24:19 [JavaFX Application Thread] INFO  org.quizapp.App - User row updated
+2021-06-14 08:24:19 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:24:19 [JavaFX Application Thread] INFO  org.quizapp.App - Going back to userMainPage
+2021-06-14 08:24:24 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:24:24 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:24:24 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:24:24 [JavaFX Application Thread] INFO  org.quizapp.App - Quiz amount: 20
+2021-06-14 08:24:24 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:24:24 [JavaFX Application Thread] INFO  org.quizapp.App - User didn't complete the last quiz.
+2021-06-14 08:24:37 [JavaFX Application Thread] INFO  org.quizapp.App - Logging out from UserMainPage.
+2021-06-14 08:24:47 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:24:47 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:24:47 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:24:47 [JavaFX Application Thread] INFO  org.quizapp.App - Provided user credentials are invalid: jan12345 Kowalski12
+2021-06-14 08:24:55 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:24:55 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:24:55 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:24:55 [JavaFX Application Thread] INFO  org.quizapp.App - Provided user credentials are valid: janek12345 Kowalski12
+2021-06-14 08:24:56 [JavaFX Application Thread] INFO  org.quizapp.App - Going to userMainPage.
+2021-06-14 08:24:57 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:24:57 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:24:57 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:24:57 [JavaFX Application Thread] INFO  org.quizapp.App - Quiz amount: 20
+2021-06-14 08:24:57 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:24:57 [JavaFX Application Thread] INFO  org.quizapp.App - User didn't complete the last quiz.
+2021-06-14 08:25:10 [JavaFX Application Thread] INFO  org.quizapp.App - Logging out from UserMainPage.
+2021-06-14 08:25:12 [JavaFX Application Thread] INFO  org.quizapp.App - Going back from userLoginPage.
+2021-06-14 08:25:13 [JavaFX Application Thread] INFO  org.quizapp.App - Going to adminLoginPage.
+2021-06-14 08:25:18 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:25:18 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:25:18 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:25:18 [JavaFX Application Thread] INFO  org.quizapp.App - Provided admin credentials are valid: root toor
+2021-06-14 08:25:18 [JavaFX Application Thread] INFO  org.quizapp.App - Going to AdminMainPage.
+2021-06-14 08:25:19 [JavaFX Application Thread] INFO  org.quizapp.App - Going to adminQuestionsPage.
+2021-06-14 08:25:20 [JavaFX Application Thread] INFO  org.quizapp.App - Load button pressed
+2021-06-14 08:25:20 [JavaFX Application Thread] INFO  org.quizapp.App - Loading questions from database...
+2021-06-14 08:25:20 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:25:20 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:25:20 [JavaFX Application Thread] INFO  org.quizapp.App - 20 questions loaded from database.
+2021-06-14 08:25:20 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:25:23 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:25:23 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:25:28 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:25:28 [JavaFX Application Thread] INFO  org.quizapp.App - Table has been deleted: questions
+2021-06-14 08:25:28 [JavaFX Application Thread] INFO  org.quizapp.App - Questions deleted.
+2021-06-14 08:25:28 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:25:28 [JavaFX Application Thread] INFO  org.quizapp.App - Table has been created: questions
+2021-06-14 08:25:28 [JavaFX Application Thread] INFO  org.quizapp.App - New questions table created.
+2021-06-14 08:25:28 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:25:30 [JavaFX Application Thread] INFO  org.quizapp.App - Load button pressed
+2021-06-14 08:25:30 [JavaFX Application Thread] INFO  org.quizapp.App - Loading questions from database...
+2021-06-14 08:25:30 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:25:30 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:25:30 [JavaFX Application Thread] INFO  org.quizapp.App - 0 questions loaded from database.
+2021-06-14 08:25:30 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:25:31 [JavaFX Application Thread] INFO  org.quizapp.App - Load button pressed
+2021-06-14 08:25:31 [JavaFX Application Thread] INFO  org.quizapp.App - Loading questions from database...
+2021-06-14 08:25:31 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:25:31 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:25:31 [JavaFX Application Thread] INFO  org.quizapp.App - 0 questions loaded from database.
+2021-06-14 08:25:31 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:25:34 [JavaFX Application Thread] INFO  org.quizapp.App - Going to addQuestionPage.
+2021-06-14 08:25:41 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:25:41 [JavaFX Application Thread] INFO  org.quizapp.App - Adding question.
+2021-06-14 08:25:41 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:25:41 [JavaFX Application Thread] ERROR org.quizapp.App - Error at retrieving last id from questions table. ResultSet closed
+2021-06-14 08:25:41 [JavaFX Application Thread] INFO  org.quizapp.App - Checking if question was already added: 2+2=
+2021-06-14 08:25:41 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:25:41 [JavaFX Application Thread] INFO  org.quizapp.App - Update executed.
+2021-06-14 08:25:41 [JavaFX Application Thread] INFO  org.quizapp.App - Question has been added.
+2021-06-14 08:25:41 [JavaFX Application Thread] INFO  org.quizapp.App - Question added!
+2021-06-14 08:25:41 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:25:42 [JavaFX Application Thread] INFO  org.quizapp.App - Closing addQuestion pop up window.
+2021-06-14 08:25:42 [JavaFX Application Thread] INFO  org.quizapp.App - Load button pressed
+2021-06-14 08:25:42 [JavaFX Application Thread] INFO  org.quizapp.App - Loading questions from database...
+2021-06-14 08:25:42 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:25:42 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:25:42 [JavaFX Application Thread] INFO  org.quizapp.App - 1 questions loaded from database.
+2021-06-14 08:25:42 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED
+2021-06-14 08:25:44 [JavaFX Application Thread] INFO  org.quizapp.App - Going back to AdminMainPage.
+2021-06-14 08:25:45 [JavaFX Application Thread] INFO  org.quizapp.App - Going to adminQuestionsPage.
+2021-06-14 08:25:45 [JavaFX Application Thread] INFO  org.quizapp.App - Load button pressed
+2021-06-14 08:25:45 [JavaFX Application Thread] INFO  org.quizapp.App - Loading questions from database...
+2021-06-14 08:25:45 [JavaFX Application Thread] INFO  org.quizapp.App - Connection ESTABLISHED.
+2021-06-14 08:25:45 [JavaFX Application Thread] INFO  org.quizapp.App - Query executed.
+2021-06-14 08:25:45 [JavaFX Application Thread] INFO  org.quizapp.App - 1 questions loaded from database.
+2021-06-14 08:25:45 [JavaFX Application Thread] INFO  org.quizapp.App - Connection CLOSED

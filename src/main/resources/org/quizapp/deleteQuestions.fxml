@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: #0267C1;" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.quizapp.admin.DeleteQuestionsController">
+   <children>
+      <Pane prefHeight="44.0" prefWidth="300.0" style="-fx-background-color: #D64045;">
+         <children>
+            <Label layoutX="8.0" layoutY="5.0" prefHeight="35.0" prefWidth="184.0" style="-fx-font-weight: bold;" text="Delete questions">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="returnButton" layoutX="217.0" layoutY="10.0" mnemonicParsing="false" onAction="#onReturn" style="-fx-font-weight: bold;" text="GO BACK">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+         </children>
+      </Pane>
+      <Label layoutX="18.0" layoutY="56.0" prefHeight="44.0" prefWidth="264.0" style="-fx-font-weight: bold;" text="To delete a question or questions, provide question Id's seperated with spaces." textAlignment="CENTER" textFill="#e84855" wrapText="true" />
+      <TextField fx:id="input" layoutX="14.0" layoutY="108.0" prefHeight="26.0" prefWidth="272.0" />
+      <Label fx:id="status" alignment="CENTER" layoutX="14.0" layoutY="155.0" prefHeight="18.0" prefWidth="190.0" />
+      <Button fx:id="deleteButton" layoutX="220.0" layoutY="151.0" mnemonicParsing="false" onAction="#onDelete" prefHeight="26.0" prefWidth="62.0" style="-fx-font-weight: bold;" text="DELETE">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

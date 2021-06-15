@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #0267C1;" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.quizapp.user.UserSummaryPageController">
+   <children>
+      <Pane prefHeight="114.0" prefWidth="900.0" style="-fx-background-color: #D64045;">
+         <children>
+            <ImageView fitHeight="80.0" fitWidth="82.0" layoutX="14.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../results.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="94.0" layoutY="17.0" style="-fx-font-weight: bold;" text="Summary">
+               <font>
+                  <Font size="54.0" />
+               </font>
+            </Label>
+            <Button fx:id="finishButton" layoutX="676.0" layoutY="17.0" mnemonicParsing="false" onAction="#onFinish" prefHeight="80.0" prefWidth="202.0" style="-fx-font-weight: bold;" text="FINISH">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <TableView fx:id="answersTable" layoutX="18.0" layoutY="207.0" prefHeight="378.0" prefWidth="863.0">
+         <columns>
+            <TableColumn fx:id="id" prefWidth="39.99997138977051" resizable="false" text="Id" />
+            <TableColumn fx:id="question" prefWidth="363.20003509521484" text="Question" />
+            <TableColumn fx:id="answer" prefWidth="243.99996948242188" text="Your answer" />
+            <TableColumn fx:id="correctAnswer" minWidth="0.0" prefWidth="214.4000244140625" text="Correct answer" />
+         </columns>
+      </TableView>
+      <Label fx:id="finalResult" layoutX="18.0" layoutY="127.0" prefHeight="70.0" style="-fx-font-weight: bold;" text="Final result:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="correctAnswers" layoutX="277.0" layoutY="127.0" prefHeight="70.0" style="-fx-font-weight: bold;" text="Correct answers:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="deathSentence" alignment="CENTER" contentDisplay="CENTER" layoutX="580.0" layoutY="131.0" prefHeight="62.0" prefWidth="302.0" style="-fx-font-weight: bold;" text="You have passed!" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

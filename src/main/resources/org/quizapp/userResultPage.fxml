@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="450.0" prefWidth="500.0" style="-fx-background-color: #0267C1;" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.quizapp.user.UserResultPageController">
+   <children>
+      <Pane prefHeight="100.0" prefWidth="500.0" style="-fx-background-color: #D64045;">
+         <children>
+            <Label layoutX="94.0" layoutY="15.0" style="-fx-font-weight: bold;" text="Result">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Button fx:id="finishButton" layoutX="328.0" layoutY="17.0" mnemonicParsing="false" onAction="#onFinish" prefHeight="66.0" prefWidth="150.0" style="-fx-font-weight: bold;" text="FINISH">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="80.0" fitWidth="82.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../results.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="25.0" layoutY="116.0" prefHeight="320.0" prefWidth="450.0" style="-fx-background-color: #D64045; -fx-background-radius: 25px;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Label fx:id="finalResult" layoutX="17.0" layoutY="37.0" prefHeight="70.0" style="-fx-font-weight: bold;" text="Final result:">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="correctAnswers" layoutX="17.0" layoutY="95.0" prefHeight="70.0" style="-fx-font-weight: bold;" text="Correct answers:">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="deathSentence" alignment="CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="165.0" prefHeight="119.0" prefWidth="300.0" style="-fx-font-weight: bold;" text="You have passed!" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

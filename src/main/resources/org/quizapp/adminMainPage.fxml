@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #0267C1;" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.quizapp.admin.AdminMainPage">
+   <children>
+      <Pane prefHeight="114.0" prefWidth="900.0" style="-fx-background-color: #D64045;">
+         <children>
+            <ImageView fitHeight="80.0" fitWidth="82.0" layoutX="14.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../admin.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="104.0" layoutY="17.0" prefHeight="79.0" prefWidth="374.0" style="-fx-font-weight: bold;" text="Admin page">
+               <font>
+                  <Font size="54.0" />
+               </font>
+            </Label>
+            <Button fx:id="logoutButton" layoutX="674.0" layoutY="17.0" mnemonicParsing="false" onAction="#onLogout" onMouseEntered="#logoutOn" onMouseExited="#logoutOff" prefHeight="80.0" prefWidth="202.0" style="-fx-font-weight: bold;" text="LOG OUT">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Label layoutX="335.0" layoutY="132.0" prefHeight="70.0" prefWidth="229.0" style="-fx-font-weight: bold;" text="Welcome!">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="80.0" fitWidth="82.0" layoutX="416.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../add.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="questionsButton" layoutX="315.0" layoutY="352.0" mnemonicParsing="false" onAction="#onQuestions" onMouseEntered="#questionsOn" onMouseExited="#questionsOff" prefHeight="80.0" prefWidth="269.0" style="-fx-font-weight: bold;" text="QUESTIONS">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Label fx:id="infoLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="278.0" layoutY="475.0" prefHeight="47.0" prefWidth="344.0" style="-fx-font-weight: bold;" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #0267C1;" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.quizapp.user.QuizPageController">
+   <children>
+      <Pane prefHeight="100.0" prefWidth="900.0" style="-fx-background-color: #D64045;">
+         <children>
+            <ImageView fitHeight="80.0" fitWidth="82.0" layoutX="7.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../question-mark.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="102.0" layoutY="10.0" prefHeight="80.0" prefWidth="120.0" style="-fx-font-weight: bold;" text="Quiz">
+               <font>
+                  <Font size="54.0" />
+               </font>
+            </Label>
+            <Button fx:id="endButton" layoutX="766.0" layoutY="10.0" mnemonicParsing="false" onAction="#onEnd" prefHeight="80.0" prefWidth="120.0" style="-fx-font-weight: bold;" text="END">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="107.0" layoutY="120.0" prefHeight="180.0" prefWidth="700.0" style="-fx-background-color: #D64045; -fx-background-radius: 25px;">
+         <children>
+            <Label fx:id="questionLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="160.0" prefWidth="680.0" scaleShape="false" style="-fx-font-weight: bold; -fx-font-style: italic;" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate dignissim arcu et sagittis. Nullam eget mollis ipsum. Nunc placerat elit eu imperdiet luctus." textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Pane>
+      <Pane layoutX="107.0" layoutY="314.0" prefHeight="180.0" prefWidth="700.0" style="-fx-background-color: #D64045; -fx-background-radius: 25px;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <RadioButton fx:id="optionA" layoutX="14.0" layoutY="10.0" mnemonicParsing="false" onAction="#onA" prefHeight="40.0" style="-fx-font-weight: bold;" text="ODPOWIEDŹ A" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="answersGroup" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="optionB" layoutX="14.0" layoutY="50.0" mnemonicParsing="false" onAction="#onB" prefHeight="40.0" style="-fx-font-weight: bold;" text="ODPOWIEDŹ B" textAlignment="CENTER" toggleGroup="$answersGroup">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="optionC" layoutX="14.0" layoutY="90.0" mnemonicParsing="false" onAction="#onC" prefHeight="40.0" style="-fx-font-weight: bold;" text="ODPOWIEDŹ C" textAlignment="CENTER" toggleGroup="$answersGroup">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="optionD" layoutX="14.0" layoutY="130.0" mnemonicParsing="false" onAction="#onD" prefHeight="40.0" style="-fx-font-weight: bold;" text="ODPOWIEDŹ D" textAlignment="CENTER" toggleGroup="$answersGroup">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </Pane>
+      <Button fx:id="nextButton" layoutX="480.0" layoutY="513.0" mnemonicParsing="false" onAction="#onNext" prefHeight="62.0" prefWidth="326.0" style="-fx-font-weight: bold;" text="NEXT QUESTION">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Label fx:id="status" alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="516.0" prefHeight="66.0" prefWidth="306.0" style="-fx-font-weight: bold;" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Pane layoutX="4.0" layoutY="120.0" prefHeight="40.0" prefWidth="96.0" style="-fx-background-color: #D64045; -fx-background-radius: 25;">
+         <children>
+            <Label fx:id="questionNumber" alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" layoutY="3.0" prefHeight="35.0" prefWidth="80.0" style="-fx-font-weight: bold;" text="1/2" textAlignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Pane>
+   </children>
+</AnchorPane>

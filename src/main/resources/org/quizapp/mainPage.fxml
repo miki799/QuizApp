@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #0267C1;" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.quizapp.MainPageController">
+    <left>
+        <AnchorPane prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #D64045;" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="296.0" fitWidth="296.0" layoutX="52.0" layoutY="152.0">
+                    <image>
+                        <Image url="@../../question-mark.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+    </left>
+    <right>
+        <AnchorPane prefHeight="900.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label layoutX="70.0" layoutY="88.0" text="Welcome to QuizApp!">
+                    <font>
+                        <Font name="System Bold" size="36.0" />
+                    </font>
+                </Label>
+                <Label layoutX="173.0" layoutY="175.0" text="Who are you?">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Label>
+                <Button fx:id="simpleUserButton" layoutX="148.0" layoutY="258.0" onAction="#goToUserLoginPage" prefHeight="63.0" prefWidth="205.0" text="SIMPLE USER" textFill="#0012ff">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                    <effect>
+                        <DropShadow />
+                    </effect>
+                </Button>
+                <Label alignment="CENTER" layoutX="238.0" layoutY="347.0" text="or" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Label>
+                <Button fx:id="powerfulAdminButton" layoutX="128.0" layoutY="411.0" onAction="#goToAdminLoginPage" prefHeight="63.0" prefWidth="245.0" text="POWERFUL ADMIN" textFill="RED">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                    <effect>
+                        <DropShadow />
+                    </effect>
+                </Button>
+            </children>
+        </AnchorPane>
+    </right>
+</BorderPane>
